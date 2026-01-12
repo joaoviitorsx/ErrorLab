@@ -1,0 +1,36 @@
+# Node modules e build
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos locais e configs de IDE
+*.local
+.env.local
+.env.*.local
+.DS_Store
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# VSCode
+.vscode/
+!.vscode/extensions.json
+
+# Outros
+coverage/
+
+# Permitir exemplos de env
+!.env.example
+* text=auto
